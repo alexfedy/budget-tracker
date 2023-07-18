@@ -13,6 +13,18 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/finance-tracker" element={<Tracker />} />
       </Routes>
+      <div className="w-full flex justify-center">
+        <p className="text-xs text-center mt-12 mb-4">
+          Built by{" "}
+          <a
+            href="https://alexfedy.github.io/"
+            target="_blank"
+            className="underline"
+          >
+            alexfedy
+          </a>
+        </p>
+      </div>
     </Router>
   );
 }

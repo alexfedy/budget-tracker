@@ -25,9 +25,9 @@ const ExpenseItem = (props) => {
           </p>
         </div>
       </div>
-      <a className="cursor-pointer" onClick={handleDeleteExpense}>
+      <button className="cursor-pointer" onClick={handleDeleteExpense}>
         &#10006;
-      </a>
+      </button>
     </div>
   );
 };
