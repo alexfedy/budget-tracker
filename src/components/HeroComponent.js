@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const hero = "/hero.png";
+
 const HeroComponent = () => {
   return (
     <>
@@ -41,7 +43,7 @@ const HeroComponent = () => {
             </div>
 
             <div>
-              <img className="w-full" src="/hero.png" alt="" />
+              <img className="w-full" src={hero} alt="" />
             </div>
           </div>
         </div>
