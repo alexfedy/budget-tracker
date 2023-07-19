@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const hero = "/hero.png";
+const hero = "/hero-optimized-cropped.jpeg";
 
 const HeroComponent = () => {
   return (
@@ -43,7 +43,7 @@ const HeroComponent = () => {
             </div>
 
             <div>
-              <img className="w-full" src={hero} alt="" />
+              <img className="w-full rounded shadow-2xl" src={hero} alt="" />
             </div>
           </div>
         </div>
