@@ -17,7 +17,7 @@ function App() {
         <p className="text-xs text-center mt-12 mb-4">
           Built by{" "}
           <a
-            href="https://alexfedy.github.io/"
+            href="https://alexfedy.vercel.app/"
             target="_blank"
             className="underline"
           >
